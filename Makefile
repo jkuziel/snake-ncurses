@@ -1,2 +1,2 @@
 snake: snake.c
-	clang -o $@ -lncurses $^
+	gcc -o $@ $^ -lncurses

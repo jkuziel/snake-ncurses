@@ -39,9 +39,9 @@ int max(int a, int b) {
 
 const int Board_x       = 2;
 const int Board_y       = 1;
-const int Board_width   = 20;
-const int Board_height  = 20;
-const int Board_size    = Board_width * Board_height;
+#define Board_width     20
+#define Board_height    20
+#define Board_size      (Board_width * Board_height)
 
 typedef int Cell;
 

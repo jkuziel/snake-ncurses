@@ -11,7 +11,10 @@ Some notable properties:
 
 ## Known Compatibility
 
+- Linux
 - macOS
+- gcc
+- clang
 
 ## Build and Run
 
